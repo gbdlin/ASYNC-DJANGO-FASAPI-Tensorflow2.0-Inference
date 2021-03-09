@@ -39,7 +39,7 @@ Tested with Following Environments:
 
 ## Django Async Runsever Locally
 
-		uvicorn tensorflow2_django_api_asgi.asgi:application --reload
+		uvicorn app.asgi:application --reload
 
 ## Django UWSGI Runsever Locally
 

@@ -1,0 +1,9 @@
+django
+djangorestframework
+django-cors-headers
+uvicorn[standard]
+pillow
+fastapi
+python-multipart
+tensorflow
+gunicorn
