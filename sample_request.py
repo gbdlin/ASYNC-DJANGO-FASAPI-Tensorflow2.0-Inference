@@ -1,6 +1,6 @@
 import requests
 
-url = "http://localhost:8000/api/predict"
+url = "http://159.65.126.185/api/predict"
 
 payload = {}
 headers = {}

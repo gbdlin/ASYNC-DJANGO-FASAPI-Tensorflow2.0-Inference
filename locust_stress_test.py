@@ -1,7 +1,9 @@
-from locust import HttpUser, task
+from locust import HttpUser, task, between
 
 
 class QuickstartUser(HttpUser):
+    wait_time = between(0.2, 1)
+
     @task
     def on_start(self):
         self.client.post(
